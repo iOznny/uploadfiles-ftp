@@ -15,7 +15,7 @@ if(($type == "image/png" || $type == "image/jpeg" || $type == "image/jpg") && ($
         header('refresh:3;url=index.html');
      }
 } else {
-    echo 'Ocurrio un error en su fotografia, por favor verifique el formato de la fotografia así como su tamaño.';
+    echo 'Ocurrio un error en su fotografia, por favor verifique el formato de la fotografia así como su peso.';
     header('refresh:3;url=index.html');
 }
 
