@@ -1,4 +1,5 @@
 <?php
+
 // Credentials
 $server = "192.168.1.30";
 $conn_id = ftp_connect($server);
@@ -35,7 +36,5 @@ if ((!$conn_id) || (!$login)) {
 
     ftp_close($conn_id);
 }
-
-
 
 ?>
