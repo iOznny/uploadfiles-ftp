@@ -7,7 +7,7 @@ $size = $_FILES['picture']['size'];
 
 //Checking of caracters of picture
 if(($type == "image/png" || $type == "image/jpeg" || $type == "image/jpg") && ($size <= 4000000)) { 
-    if (move_uploaded_file($_FILES['picture']['tmp_name'], '/files/' . $name)) {
+    if (move_uploaded_file($_FILES['picture']['tmp_name'], '/var/www/html/uploadfiles-ftp/files/' . $name)) {
         echo 'Subido existosamente.';
         header('refresh:3;url=index.html');
     } else {
