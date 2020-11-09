@@ -16,7 +16,7 @@ $ruta = $varnombre1.str_replace (" ", "_", $local);
 $ftp_carpeta_local = $local;
 
 // Destino en el servidor ftp.
-$ftp_carpeta_remota = "/cesarcandia/files/";
+$ftp_carpeta_remota = "/Cesar/files/";
 $mi_nombredearchivo = $ruta;
 
 // Nombre de archivo es el archivo temporal que esta en el servidor ftp.
